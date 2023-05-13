@@ -4,6 +4,9 @@
     width:80%;
     margin: auto;
 }
+
+
+
 .card{
 
     float:left;
@@ -12,11 +15,18 @@
     height: 300px;
 }
 
+.card:hover
+{
+    transform: scale(1.2, 1.2);
+    
+  }
+
+
 .card > img
 {
     text-align: center;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .card > h3
