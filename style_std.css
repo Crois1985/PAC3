@@ -2,16 +2,44 @@
 
 #poke_profile
 {
-    visibility: hidden;
+    margin: auto;
+    display: none;
     width: 720px;
-    height: 720px;
+    height: 512px;
+}
+
+#imgs img
+{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.navbar
+{
+    display:inline;
+    width: 720;
+    height: 50px;
+    float: left;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(251,7,7,1) 0%, rgba(255,255,255,1) 100%);
+}
+.navbar h4
+{
+    float: left;
+    width:200px;
+}
+.navbar textarea
+{
+    margin-top:7px;
+    float: left;
 }
 
 #llistat
 {
     visibility: visible;
     width:720px;
-    height: 1550px;
+    height: 512px;
     margin: auto;
     border-style: solid;
     border-color: black;
