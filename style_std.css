@@ -43,7 +43,7 @@
     float: left;
     width:120px;
 }
-.navbar textarea
+.navbar input
 {
     margin-top:7px;
     float: left;
@@ -70,11 +70,13 @@
 
     float:left;
     background-color: white;
-    width: 138px;
+    width: 130px;
     height: 200px;
     border-color: gray;
-    border-style: solid;
+    border-style: double;
     text-align: center;
+    border-radius: 20px;
+    margin: 4px;
 }
 
 .card:hover
