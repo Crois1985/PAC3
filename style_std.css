@@ -1,14 +1,17 @@
 
 #marc
 {
+    margin:auto;
+    float: none;
     width: 720px;
-    height: 512px;
+    height: 720px;
 
 }
 
 #title
 {
     width: 720px;
+    height: 300px;
 }
 
 #poke_profile
@@ -55,7 +58,11 @@
     
 }
 
-
+.navbar a
+{
+    float:left;
+    margin-top: 20px;;
+}
 
 .card{
 
