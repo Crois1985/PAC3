@@ -1,4 +1,15 @@
 
+#marc
+{
+    width: 720px;
+    height: 512px;
+
+}
+
+#title
+{
+    width: 720px;
+}
 
 #poke_profile
 {
@@ -27,7 +38,7 @@
 .navbar h4
 {
     float: left;
-    width:200px;
+    width:120px;
 }
 .navbar textarea
 {
@@ -41,8 +52,7 @@
     width:720px;
     height: 512px;
     margin: auto;
-    border-style: solid;
-    border-color: black;
+    
 }
 
 
