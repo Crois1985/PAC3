@@ -136,3 +136,28 @@ async function start()
          get_pkms(pkm_ids);
 
 }
+
+//Funcio per buscar entre les cartes
+function cerca()
+{
+    texte=document.getElementById("find").value;
+   // console.log(texte);
+    cartes=document.getElementsByClassName("card");
+    
+    for (const pkm of cartes)
+    {
+        var nl=document.querySelectorAll("#"+pkm.getAttribute("id")+' h3');
+        //console.log( texte+ " ¿?? "+ nl[0].innerText);
+        var nom=nl[0].innerText;
+        if (nom.includes(texte)==true)
+        {
+          //  console.log(nom +" inclos");
+            pkm.style.visibility="visible";
+        }
+        else{
+           // console.log(nom +" no inclos");
+            pkm.style.visibility="hidden";
+        }
+
+    }
+}
