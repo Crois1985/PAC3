@@ -1,4 +1,34 @@
 
+
+#menu_bar
+{
+    margin:auto;
+    float: none;
+    width: 720px;
+    height: 100px;
+
+}
+#menu_buts
+{
+    margin:right;
+    float: right;
+    width: 200px;
+    height: 100px;
+
+}
+#menu_bar input
+{
+    text-align: right;
+    float: letf;
+
+}
+#menu_bar label
+{
+    text-align: right;
+    float: letf;
+
+}
+
 #marc
 {
     margin:auto;
