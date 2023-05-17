@@ -1,4 +1,9 @@
 body
 {
-    background-color: rgb(10,10,10);
+    background-color: rgb(50,50,50);
+}
+
+.card
+{
+    background-color: rgb(128,128,128);
 }
