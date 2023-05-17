@@ -96,13 +96,6 @@
     
 }
 
-.navbar a
-{
-    float:left;
-    margin-top: 20px;
-    margin-left: 270px;
-    font-size: 20px;
-}
 
 .card{
 
@@ -136,4 +129,35 @@
 {
     text-align: center;
     font-size: 18;
+}
+
+
+.navbar a
+{
+    float:left;
+    
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+
+.butt
+{
+ width: 200px;
+ height: 50px;
+ /*background-color: red;*/
+ 
+ transition: background-color 1s;
+
+}
+.butt:hover
+{
+    
+    background-color: red;
+}
+
+.butt label{
+    width: 100%;
+    opacity:1;
+    margin-left: 35px;
 }
