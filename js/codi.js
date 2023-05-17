@@ -73,6 +73,10 @@ async function start()
     {
         set_tema(sessionStorage.getItem("tema"));
     }
+    else
+    {
+    	set_tema(0);
+    }
     
   //Comprovem que no s'hagi demanat un pokemon especific...
 
