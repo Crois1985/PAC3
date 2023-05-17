@@ -162,7 +162,7 @@ function cerca()
     }
 }
 
-
+//Funcio que salta entre temes
 function set_tema(tema)
 {
     if (tema==0)
