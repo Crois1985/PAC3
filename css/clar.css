@@ -22,11 +22,16 @@ a
    
 }
 
-.label
+label
 {
     color: black;
 }
 
 h2,h4{
     color: black;
+}
+
+.butt:hover
+{
+    background-color: rgb(200,200,200);
 }
