@@ -69,6 +69,10 @@ for (const pk_id of pkm_ids)
 async function start()
 {
    
+    if (sessionStorage.hasOwnProperty("tema")!=false)
+    {
+        set_tema(sessionStorage.getItem("tema"));
+    }
     
   //Comprovem que no s'hagi demanat un pokemon especific...
 
@@ -172,4 +176,5 @@ function set_tema(tema)
     else{
         document.getElementById("tema").setAttribute("href","css/obscur.css");
     }
+    sessionStorage.setItem("tema", tema);  //Salvem la llista per refrescar
 }

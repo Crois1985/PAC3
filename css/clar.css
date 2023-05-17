@@ -7,6 +7,7 @@ body
 .card
 {
     background-color: white;
+    border-color: gray;
 }
 
 a
@@ -19,4 +20,9 @@ a
 {
     background: white;
    
+}
+
+.label
+{
+    color: black;
 }

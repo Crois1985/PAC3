@@ -68,7 +68,7 @@
     float: left;
     
 }
-.navbar h4
+.navbar label
 {
     float: left;
     width:120px;
@@ -103,7 +103,7 @@
     background-color: white;
     width: 130px;
     height: 200px;
-    border-color: gray;
+    
     border-style: double;
     text-align: center;
     border-radius: 20px;
