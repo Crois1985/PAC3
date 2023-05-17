@@ -172,9 +172,12 @@ function set_tema(tema)
     if (tema==0)
     {
         document.getElementById("tema").setAttribute("href","css/clar.css");
+        document.getElementsByName("tema")[0].setAttribute("checked","checked");
     }
-    else{
+    else
+    {
         document.getElementById("tema").setAttribute("href","css/obscur.css");
+        document.getElementsByName("tema")[1].setAttribute("checked","checked");
     }
     sessionStorage.setItem("tema", tema);  //Salvem la llista per refrescar
 }

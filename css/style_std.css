@@ -30,6 +30,13 @@
 
 }
 
+.navbar label
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
 #marc
 {
     margin:auto;
