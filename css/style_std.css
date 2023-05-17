@@ -50,6 +50,7 @@
 {
     width: 720px;
     height: 300px;
+    mix-blend-mode: multiply;
 }
 
 #poke_profile
