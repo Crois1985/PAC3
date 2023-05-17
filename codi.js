@@ -161,3 +161,15 @@ function cerca()
 
     }
 }
+
+
+function set_tema(tema)
+{
+    if (tema==0)
+    {
+        document.getElementById("tema").setAttribute("href","css/clar.css");
+    }
+    else{
+        document.getElementById("tema").setAttribute("href","css/obscur.css");
+    }
+}
