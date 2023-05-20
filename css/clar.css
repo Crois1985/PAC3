@@ -1,14 +1,23 @@
 body
 {
     background-color: white;
+    transition: background-color 1s;
 }
 
 
 .card
 {
-    background-color: white;
+    background-color: #EFEFEF;
     border-color: gray;
 }
+
+.card:hover
+{
+    transform: scale(1.2, 1.2);
+     background-color: #EFEFEF;
+}
+
+
 
 a
 {
@@ -16,11 +25,7 @@ a
    
 }
 
-.navbar
-{
-    background: white;
-   
-}
+
 
 label
 {
@@ -33,6 +38,7 @@ h2,h4{
 
 .butt:hover
 {
-    background-color: rgb(200,200,200);
+    background-color: #EFEFEF;
+
 }
 
